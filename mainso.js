@@ -22,3 +22,4 @@
     for (let i = 0; i < encodedStr.length; i += 1) {
       var idLeft = sortedCharSequence[i];
       if (idLeft in maxEachCharLeft) {
+//yes
