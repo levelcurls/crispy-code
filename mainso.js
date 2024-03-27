@@ -6,7 +6,7 @@
     }
     var sorted = combinations.sort();
     var result = [];
-    for (let i = 0; i < sorted.length; i += 1) {
+    for (let i = 0; i < sorted.length; i += 1) {//good
       result.push(combinations[i][str.length - 1]);
     }
     return result.join('');
